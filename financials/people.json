@@ -1,1 +1,57 @@
-[{"id":"0","name":"Sandeep Kumar","fund":91.75},{"id":"1","name":"Sravan Bobbili","fund":76.75},{"id":"2","name":"Ravi Gunishetty","fund":76.75},{"id":"3","name":"Sunil","fund":76.75},{"id":"4","name":"Sampath","fund":100}]
+[
+  {
+    "id": "0",
+    "name": "Sandeep Kumar",
+    "fund": 88.25
+  },
+  {
+    "id": "1",
+    "name": "Sravan Bobbili",
+    "fund": 36.85
+  },
+  {
+    "id": "2",
+    "name": "Ravi Gunishetty",
+    "fund": 5.350000000000001
+  },
+  {
+    "id": "3",
+    "name": "Dasaradhy",
+    "fund": -15.65
+  },
+  {
+    "id": "4",
+    "name": "Likith",
+    "fund": 107.6
+  },
+  {
+    "id": "5",
+    "name": "Vinay",
+    "fund": 21
+  },
+  {
+    "id": "6",
+    "name": "Sampath",
+    "fund": 62.5
+  },
+  {
+    "id": "7",
+    "name": "Sunil",
+    "fund": 27
+  },
+  {
+    "id": "8",
+    "name": "Sai",
+    "fund": 0
+  },
+  {
+    "id": "9",
+    "name": "Aravind",
+    "fund": -23.9
+  },
+  {
+    "id": "10",
+    "name": "Pradeep",
+    "fund": 40.3
+  }
+]

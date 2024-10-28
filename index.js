@@ -14,13 +14,21 @@ let updateFunds = function() {
     for (let i = 0; i < count; i++) {
         //add each expense to the total
         let share = expenses[i].amount / expenses[i].applies.length;
+        let processingType = expenses[i].type;
         console.log("share is: " + share);
         for (let j=0; j < expenses[i].applies.length; j++) {
             let person = expenses[i].applies[j];
-            let updatedFund = people[person].fund - share;
-            console.log("person is: " + people[person].name);
-            console.log("updatedFund is: " + updatedFund);
-            people[person].fund = updatedFund;
+            if(processingType === "credit") {
+                let updatedFund = people[person].fund + share;
+                console.log("person is: " + people[person].name);
+                console.log("updatedFund is: " + updatedFund);
+                people[person].fund = updatedFund;
+            } else if(processingType === "debit") {
+                let updatedFund = people[person].fund - share;
+                console.log("person is: " + people[person].name);
+                console.log("updatedFund is: " + updatedFund);
+                people[person].fund = updatedFund;
+            }
         }
     }
 }
