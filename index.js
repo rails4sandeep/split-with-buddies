@@ -11,7 +11,7 @@ let generateDateStamp = function() {
 }
 
 let updateFunds = function() {
-    for (let i = 0; i < count; i++) {
+    for (let i = currentState.processed.expenseId; i < count; i++) {
         //add each expense to the total
         let share = expenses[i].amount / expenses[i].applies.length;
         let processingType = expenses[i].type;
