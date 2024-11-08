@@ -7,17 +7,25 @@ Use this for kitty split, trip split, sports teams split and other use cases whe
 ### Add expenses as a new entry to `expenses.json` file
 
 * The `id` is the next incremental number
-* `applies` refers to the user id in the people.json file
+* `applies` refers to the user id in the people.json file among whom the expense is to be split
+* `by` is who paid for it
+* `type` is either debit or credit. use `credit` for top ups
+* `amount` is the amount of the expense
 ```json
-    {
-  "id": 1,
-  "expense": "Court Fee",
-  "by": 1,
-  "amount": 45,
-  "date": "2020-01-01",
-  "applies": [1,2,3]
-},
-
+{
+  "id": 5,
+  "expense": "Court Booking Fee",
+  "by": 0,
+  "amount": 28.08,
+  "date": "28-10-2024",
+  "applies": [
+    3,
+    1,
+    5,
+    7
+  ],
+  "type": "debit"
+}
 ```
 
 ### Add people to the `people.json` file

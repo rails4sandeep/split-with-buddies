@@ -47,5 +47,31 @@
       5
     ],
     "type": "credit"
+  },
+  {
+    "id": 5,
+    "expense": "Court Booking Fee",
+    "by": 0,
+    "amount": 28.08,
+    "date": "28-10-2024",
+    "applies": [
+      3,
+      1,
+      5,
+      7
+    ],
+    "type": "debit"
+  },
+  {
+    "id": 6,
+    "expense": "Dasaradhy Topup",
+    "by": 3,
+    "amount": 100,
+    "date": "08-11-2024",
+    "applies": [
+      3
+    ],
+    "type": "credit"
   }
+
 ]
