@@ -72,6 +72,65 @@
       3
     ],
     "type": "credit"
+  },
+  {
+    "id": 7,
+    "expense": "Aravind Topup",
+    "by": 9,
+    "amount": 23.90,
+    "date": "11-11-2024",
+    "applies": [
+      9
+    ],
+    "type": "credit"
+  },
+  {
+  "id": 8,
+  "expense": "Swap Sravan and Likith",
+  "by": 4,
+  "amount": 7.02,
+  "date": "11-11-2024",
+  "applies": [
+    1
+  ],
+  "type": "credit"
+},
+  {
+    "id": 9,
+    "expense": "Swap Sravan and Likith",
+    "by": 4,
+    "amount": 7.02,
+    "date": "11-11-2024",
+    "applies": [
+      4
+    ],
+    "type": "debit"
+  },
+  {
+    "id": 10,
+    "expense": "Shuttle Cocks Purchase",
+    "by": 7,
+    "amount": 40,
+    "date": "11-11-2024",
+    "applies": [
+      0,1,2,3,4,5,6,7,8,9,10
+    ],
+    "type": "debit"
+  },
+  {
+    "id": 11,
+    "expense": "Topup Sunil Pending Amount",
+    "by": 7,
+    "amount": 36.7,
+    "date": "11-11-2024",
+    "applies": [
+      7
+    ],
+    "type": "credit"
   }
+
+
+
+
 
 ]

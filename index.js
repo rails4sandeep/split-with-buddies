@@ -13,18 +13,18 @@ let generateDateStamp = function() {
 let updateFunds = function() {
     for (let i = currentState.processed.expenseId; i < count; i++) {
         //add each expense to the total
-        let share = expenses[i].amount / expenses[i].applies.length;
+        let share = (expenses[i].amount / expenses[i].applies.length).toFixed(2);
         let processingType = expenses[i].type;
         console.log("share is: " + share);
         for (let j=0; j < expenses[i].applies.length; j++) {
             let person = expenses[i].applies[j];
             if(processingType === "credit") {
-                let updatedFund = people[person].fund + share;
+                let updatedFund = (parseFloat(people[person].fund) + parseFloat(share)).toFixed(2);
                 console.log("person is: " + people[person].name);
                 console.log("updatedFund is: " + updatedFund);
                 people[person].fund = updatedFund;
             } else if(processingType === "debit") {
-                let updatedFund = people[person].fund - share;
+                let updatedFund = (parseFloat(people[person].fund) - parseFloat(share)).toFixed(2);
                 console.log("person is: " + people[person].name);
                 console.log("updatedFund is: " + updatedFund);
                 people[person].fund = updatedFund;
